@@ -367,11 +367,11 @@ if __name__ == '__main__':
     name_tile_file = 'Tiles_sel.shp'
 
 
-    bExtractLabelTiles = False
+    bExtractLabelTiles = True
     if bExtractLabelTiles:
         markTiles(folder, nTiles=int(os.environ['number_of_tiles_per_labeler']), nLabelers=int(os.environ['number_of_labelers']))
         extractTileFiles(folder, ext='jpg')
 
-    bExtractAllTiles = True
+    bExtractAllTiles = False
     if bExtractAllTiles:
         extractAllTiles(folder, ext='tif')
