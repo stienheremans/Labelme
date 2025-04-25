@@ -1,0 +1,4 @@
+not_inundated
+inundated
+uncertain
+other

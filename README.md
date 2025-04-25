@@ -26,7 +26,7 @@ labelme
 ~~~
 or reference directly to your folder and add your pre-defined labels:
 ~~~shell
-labelme ./Images/FC --labels labels.txt --nodata --validatelabel exact --config '{shift_auto_shape_color: -2}'
+labelme C:/Users/stien_heremans/VSCProjects/Labelme/Images/Labeler1 --labels labels.txt
 ~~~
 or reference directly to your folder and add your pre-defined flags (for annotation or classification):
 ~~~shell
